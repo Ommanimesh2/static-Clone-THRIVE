@@ -1,0 +1,150 @@
+body{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    background-color: #2cbae7;
+    
+}
+*{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+nav{
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2cbae7;
+    height: 5vh;
+    position: sticky;
+    top: 0;
+}
+.rightNav{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    margin-right: 13vw;
+    
+    align-items: center;
+    
+}
+.rightNavItems{
+    border: 1px solid white;
+ 
+    height: 5vh;
+  
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    
+}
+.leftNavItems:hover{
+    background-color: white;
+    color: #2cbae7;
+}
+.leftNavItems{
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-bottom: 0;
+    border-top: 0;
+    height: 5vh;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.leftNavItems:first-child{
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-bottom: 0;
+    border-top: 0;
+    height: 5vh;
+    background-color: white;
+    color: #2cbae7;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.leftNav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 13vw;
+
+}
+.container{
+    margin-left:11.2vw ;
+    margin-right: 13.3vw;
+    margin-top: 10vh;
+}
+.businessMain{
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.businessText{
+    font-size: 50px;
+    max-width: 40vw;
+}
+.rightBusiness{
+    margin-top: 1.14vh;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+.businessIcons{
+    margin: 0 2vw;
+}
+.fa-brands{
+    padding: 9px;
+}
+.trial{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #2cbae7;
+    height: 6vh;
+    width: 100%;
+}
+.hrs{
+    margin: 30px;
+    width: 100%;
+}
+.mainDivider{
+    margin: 15vh 0;   
+}
+.cameraMain{
+    display:flex ;
+    flex-direction: row;
+}
+.camRight img{
+    height: 350px;
+}
+.camText{
+    font-size: 40px;
+}
+.camHr{
+    margin: 5vh 0;
+}
+.mainBig{
+    display:flex ;
+}
+.bigRight{
+    padding-left: 5vw;   
+    padding-top: 5vw;   
+}
+.bigRightText0{
+    padding: 15px 0;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.bigRightText1{
+font-size:26px;
+}
