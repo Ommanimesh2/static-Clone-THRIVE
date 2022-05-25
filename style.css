@@ -269,7 +269,14 @@ transition: 1s;
          flex-direction: column;
      }
      .sometext,.lefttext{
+         width: 100%;
          text-align: center;
+     }
+     .righttext{
+         width: 100%;
+         margin-top: 6vh;
+         padding-left: 0;
+         
      }
      .endbtns{
          display: flex;
